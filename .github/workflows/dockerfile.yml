@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths: 
-      - 'dockerfile-practice/Dockerfile'
+      - '/dockerfile-practice/Dockerfile'
 jobs:
   build:
     runs-on: ubuntu-latest

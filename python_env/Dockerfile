@@ -15,7 +15,6 @@ RUN conda install py-xgboost=1.5.0 -y
 RUN conda install catboost=0.26.1 -y
 RUN conda install openpyxl=3.0.9 -y
 
-
 RUN pip install graphviz==0.19
 RUN pip install altair_saver==0.5.0
 RUN pip install pycountry==20.7.3

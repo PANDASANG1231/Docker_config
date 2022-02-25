@@ -10,7 +10,11 @@ Personal template for maintaining a docker repository on DockerHub. With the hel
 
 ### Usage
 
-Pull the image 'python_env' from docker hub
+#### 1\. Updating Docker
+
+Change the `Dockerfile`, and Github Actions will do the updating things automatically.
+
+#### 2\. Using Docker
 
 ```
 docker pull joshsia/markov-language-model
